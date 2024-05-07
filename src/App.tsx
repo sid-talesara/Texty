@@ -1,4 +1,3 @@
-import "./App.css";
 import UploadFile from "./components/UploadFile";
 import TextArea from "./components/TextArea";
 import { textData } from "./components/atoms/textContent-atom";

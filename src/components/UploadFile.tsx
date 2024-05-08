@@ -27,7 +27,7 @@ const UploadFile = () => {
   };
 
   return (
-    <div className=" border-4 bg-gray-50 hover:bg-gray-100 border-dashed  h-96 w-1/2  rounded-lg  flex flex-col justify-center items-center gap-5">
+    <div className=" border-4  hover:bg-gray-100 border-dashed  h-96 w-1/2  rounded-lg  flex flex-col justify-center items-center gap-5">
       <label
         htmlFor="file"
         className="w-full h-full flex flex-col justify-center items-center"
@@ -35,6 +35,7 @@ const UploadFile = () => {
         <IoCloudUploadOutline className="h-44 w-44 text-gray-400" />
         <p className="text-gray-400 text-3xl">Upload your files here</p>
         <p className="text-gray-400 text-base">Maximum file size: 1mb</p>
+        <p className="text-gray-400 text-base">Supported files: .txt</p>
       </label>
       <input
         id="file"

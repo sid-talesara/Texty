@@ -65,7 +65,7 @@ const Faq = () => {
           ))}
 
           {/* lower bottom */}
-          <p className="text-center  textbase mt-9 text-white flex justify-center gap-4 items-center text-lg">
+          <p className="text-center  textbase mt-9 text-white flex justify-center gap-4 items-center md:text-lg">
             Created by Sid with ❤️ | Find me on:
             <a
               href="twitter.com/sidtalesara"

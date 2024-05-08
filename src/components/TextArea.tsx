@@ -13,9 +13,9 @@ const TextArea = () => {
   const letterCount = textContent.length;
 
   return (
-    <div className="container w-1/2">
-      <div className="  justify-between border-b-2 flex items-center ">
-        <div className="flex gap-10">
+    <div className="container  md:w-1/2">
+      <div className="  justify-between border-b-2 md:flex items-center ">
+        <div className="flex gap-10 justify-center">
           <div className="p-4 text-center">
             <p className="text-gray-400 ">Words</p>
             <p className="text-4xl text-gray-700">{wordCount}</p>

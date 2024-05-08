@@ -8,10 +8,13 @@ function App() {
   const textContent = useRecoilValue(textData);
   return (
     <div className="bg-white flex flex-col justify-center items-center  ">
-      <Hero />
-      <UploadFile />
-      <br />
-      {textContent && <TextArea />}
+      <div className="px-4">
+        <Hero />
+
+        <UploadFile />
+        <br />
+        {textContent && <TextArea />}
+      </div>
       <Faq />
     </div>
   );

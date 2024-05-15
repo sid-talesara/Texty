@@ -27,7 +27,7 @@ const UploadFile = () => {
   };
 
   return (
-    <div className=" border-4  hover:bg-gray-100 border-dashed p-4 w-full  h-64 md:h-96 md:w-1/2  rounded-lg  flex flex-col justify-center items-center gap-5">
+    <div className=" border-4  hover:bg-gray-100 border-dashed p-4 w-full  h-64 md:h-96 md:w-full  rounded-lg  flex flex-col justify-center items-center gap-5">
       <label
         htmlFor="file"
         className="w-full h-full flex flex-col justify-center items-center"

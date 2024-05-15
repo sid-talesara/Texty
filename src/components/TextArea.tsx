@@ -13,7 +13,7 @@ const TextArea = () => {
   const letterCount = textContent.length;
 
   return (
-    <div className="container  md:w-1/2">
+    <div className="container  md:w-full">
       <div className="  justify-between border-b-2 md:flex items-center ">
         <div className="flex gap-10 justify-center">
           <div className="p-4 text-center">
